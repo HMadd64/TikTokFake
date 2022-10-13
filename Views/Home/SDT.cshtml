@@ -1,0 +1,67 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SDT</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td>
+
+                        <h1 style="text-align: center; padding-top: 35px; font-family: Arial">Đăng nhập</h1>
+
+                        <table align="center" style="width:300px">
+                            <tr>
+                                <td style="width:100px !important">
+                                    <h3 style="text-align: left; font-family: Arial">Điện thoại </h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:380px">
+                                    <input type="text"
+                                           placeholder="Số điện thoại"
+                                           name="sdt"
+                                           required
+                                           style="width: 300px; height: 35px; background-color:#dddcdc ;text-align:center" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:380px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Mật khẩu" name="psw" required
+                                           style="width: 300px; height: 35px; background-color:#dddcdc ;text-align:center" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="submit" value="Login" style="width: 380px; height: 55px !important; background-color: #dddcdc !important; border: none !important; font-weight: bold; color: grey " />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h4><a href="@Url.Action("EmailorID", "Home")" style="text-decoration:none; color:grey !important; font-family:Arial">Đăng nhập bằng email hoặc TikTok ID</a></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="text-decoration:none !important">
+                                    <h4 style="font-family:Arial; color:grey">Bạn không có tài khoản? <a href="@Url.Action("DangKy", "Home")" style="text-decoration:none; color:deeppink !important">Đăng ký</a></h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>

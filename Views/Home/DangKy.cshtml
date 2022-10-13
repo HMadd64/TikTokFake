@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>QRDK</title>
+</head>
+<body>
+    <div>
+        <table align="center">
+            <tr>
+                <td>
+                    <h1 style="text-align: center; padding-top: 65px; font-weight: bold; font-family:Arial">Đăng ký bằng mã QR</h1>
+                    <table align="center" style="width:390px">
+                        <tr>
+                            <td align="center">
+                                <img src="~/Content/image/maQRDangKy.png" alt="Thumbnail" width="80%" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align="left" width="390px">
+                        <tr a>
+                            <td align="center">
+                                <h4 style="text-align: center; font-family:Arial"> Vui lòng quét mã QR để tiến hành đăng ký.</h4>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="text-decoration:none !important">
+                    <h4 style="font-family:Arial; color:grey">Bạn đã có tài khoản? <a href="@Url.Action("Main","Home")" style="text-decoration:none; color:deeppink !important">Đăng nhập</a></h4>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

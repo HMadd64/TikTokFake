@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbTikTokFake">
+  <DataContextMoniker Name="/dbTikTokFakeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="22718874-7bb3-45d5-b20c-7272ed02bcf6" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/FacebookAcount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c352762-1522-4f72-958b-4318ec93ad90" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e449507c-1cb5-4a0d-b6be-bfed20ebd389" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/Gmail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1c3ecef-cdc1-4852-af67-0efcd5ecc51e" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a88068a-a72b-4b23-aa68-e24157c10312" absoluteBounds="0.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/Icloud" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8767ddd-a3a5-4937-9edf-26cf4d8b57e0" absoluteBounds="0.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc5db074-cce3-4304-946c-e413fd16bcc2" absoluteBounds="3.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/KaKaoAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f42d36b-6b5b-4fe0-b7f1-bea5ab8db5d5" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c37162ac-a54e-4678-8e8e-46ba708ccff8" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/LineAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6fcde7d-398f-49d4-a975-347ea001c864" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54d17ee7-afbb-4982-b647-52ca53e7a0b4" absoluteBounds="0.75, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/TikTokAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca7ef883-e995-4533-9080-87558c831c11" absoluteBounds="0.765, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d09a9516-9c6c-483b-9128-473e13c98ddc" absoluteBounds="6.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbTikTokFakeDataContext/TwitterAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="656f07af-c02d-48ea-b45a-b63c702aaabe" absoluteBounds="6.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

